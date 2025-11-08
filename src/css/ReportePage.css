@@ -1,0 +1,91 @@
+.reporte-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.reporte-page h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.reporte-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.reporte-card {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.reporte-card h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.reporte-body {
+  margin-bottom: 20px;
+}
+
+.filtros {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.filtros label {
+  font-weight: bold;
+}
+
+.filtros select,
+.filtros input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.usuarios-preview {
+  margin-top: 15px;
+}
+
+.usuarios-preview h3 {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.usuarios-preview ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.usuarios-preview li {
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.reporte-card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.reporte-card button:hover {
+  background-color: #0056b3;
+}
+
+.reporte-card button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
