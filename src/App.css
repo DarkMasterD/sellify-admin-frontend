@@ -1,9 +1,11 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  width: 100%;        /* ocupa todo el ancho disponible */
+  height: 100vh;      /* ocupa toda la altura de la ventana */
+  margin: 0;          /* elimina márgenes */
+  padding: 0;         /* elimina relleno */
+  text-align: center; /* centra el texto */
 }
+
 
 .logo {
   height: 6em;
