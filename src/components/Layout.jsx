@@ -1,7 +1,7 @@
 // frontend/src/components/Layout.jsx
 import { Outlet, Link, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../hooks/useAuth';
-import { Home, ClipboardList, LogOut, User } from 'lucide-react';
+import { Home, ClipboardList, LogOut, User, Building } from 'lucide-react';
 import '../css/Layout.css';
 
 const Layout = () => {
@@ -45,6 +45,10 @@ const Layout = () => {
             <Link to="/usuarios" className={`nav-item ${esRutaActiva('/usuarios') ? 'active' : ''}`}>
               <User size={20} className="nav-icon" />
               Usuarios
+            </Link>
+            <Link to="/negocios" className={`nav-item ${esRutaActiva('/negocios') ? 'active' : ''}`}>
+              <Building size={20} className="nav-icon" />
+              Negocios
             </Link>
           </div>
 

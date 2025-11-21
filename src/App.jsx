@@ -7,6 +7,7 @@ import Login from './components/Login';
 import DashboardPage from './pages/DashboardPage';
 import ReportePage from './pages/ReportePage';
 import UsuariosPage from './pages/UsuariosPage';
+import NegociosPage from './pages/NegociosPage';
 import './App.css';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
               <Route index element={<DashboardPage />} />
               <Route path="reportes" element={<ReportePage />} />
               <Route path="usuarios" element={<UsuariosPage />} />
+              <Route path="negocios" element={<NegociosPage />} />
             </Route>
           </Route>
 
