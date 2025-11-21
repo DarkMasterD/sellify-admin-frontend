@@ -1,0 +1,114 @@
+.usuarios-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.usuarios-page h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.usuarios-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.usuarios-table th,
+.usuarios-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.usuarios-table th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+  color: #495057;
+}
+
+.usuarios-table tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.usuarios-table tbody tr:hover {
+  background-color: #e9ecef;
+}
+
+.edit-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.role-select {
+  min-width: 120px;
+}
+
+.confirm-btn,
+.cancel-btn,
+.edit-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.confirm-btn {
+  color: #28a745;
+}
+
+.confirm-btn:hover {
+  background-color: #d4edda;
+}
+
+.cancel-btn {
+  color: #dc3545;
+}
+
+.cancel-btn:hover {
+  background-color: #f8d7da;
+}
+
+.edit-btn {
+  color: #007bff;
+}
+
+.edit-btn:hover {
+  background-color: #cce7ff;
+}
+
+/* React Select custom styles */
+.select__control {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  min-height: 38px;
+}
+
+.select__control:hover {
+  border-color: #adb5bd;
+}
+
+.select__control--is-focused {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.select__menu {
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 11px rgba(0, 0, 0, 0.1);
+}
+
+.select__option--is-selected {
+  background-color: #007bff;
+}
+
+.select__option--is-focused {
+  background-color: #e9ecef;
+}
